@@ -1,22 +1,22 @@
 cell_set_accession	cell_label	cell_fullname	parent_cell_set_accession	parent_cell_set_name	labelset	cell_ontology_term_id	cell_ontology_term	rationale	rationale_dois	marker_gene_evidence	synonyms
-aab20414c2	Astro_3	Astro_3	4c03d6f530	Astro	CrossArea_cluster	CL:0002605	astrocyte of the cerebral cortex				
-5b3c85bd88	VLMC_1	VLMC_1	add985a2fc	VLMC	CrossArea_cluster	CL:4023051	vascular leptomeningeal cell				
-b97adf0f86	Endo_1	Endo_1	6318702a57	Endo	CrossArea_cluster	CL:1001602	cerebral cortex endothelial cell				
-e15841c136	Astro_4	Astro_4	4c03d6f530	Astro	CrossArea_cluster	CL:0002605	astrocyte of the cerebral cortex				
-38e7a43d20	Oligo_2	Oligo_2	fc8bf1d738	Oligo	CrossArea_cluster	CL:0000128	oligodendrocyte				
-1eadf441a5	Oligo_1	Oligo_1	fc8bf1d738	Oligo	CrossArea_cluster	CL:0000128	oligodendrocyte				
-dbeb4bf3ab	Astro_1	Astro_1	4c03d6f530	Astro	CrossArea_cluster	CL:0002605	astrocyte of the cerebral cortex				
-a1324e8225	OPC_1	OPC_1			CrossArea_cluster	CL:0002453	oligodendrocyte precursor cell				
-2aa6a5aa14	VLMC_2	VLMC_2	add985a2fc	VLMC	CrossArea_cluster	CL:4023051	vascular leptomeningeal cell				
-88b46d3e96	Oligo_4	Oligo_4	fc8bf1d738	Oligo	CrossArea_cluster	CL:0000128	oligodendrocyte				
-0d8241831b	Endo_2	Endo_2	6318702a57	Endo	CrossArea_cluster	CL:1001602	cerebral cortex endothelial cell				
-f57fd80b63	Oligo_3	Oligo_3	fc8bf1d738	Oligo	CrossArea_cluster	CL:0000128	oligodendrocyte				
-ad92f8a874	Micro/PVM_1	Micro/PVM_1			CrossArea_cluster	CL:0000129	microglial cell				
-9c5debf6f9	Astro_5	Astro_5	4c03d6f530	Astro	CrossArea_cluster	CL:0002605	astrocyte of the cerebral cortex				
-b225fae962	Astro_2	Astro_2	4c03d6f530	Astro	CrossArea_cluster	CL:0002605	astrocyte of the cerebral cortex				
-6318702a57	Endo	Endo			CrossArea_subclass	CL:1001602	cerebral cortex endothelial cell				
-4c03d6f530	Astro	Astro			CrossArea_subclass	CL:0002605	astrocyte of the cerebral cortex				
-add985a2fc	VLMC	VLMC			CrossArea_subclass	CL:4023051	vascular leptomeningeal cell				
-fc8bf1d738	Oligo	Oligo			CrossArea_subclass	CL:0000128	oligodendrocyte				
-ad92f8a874	Micro/PVM	Micro/PVM			CrossArea_subclass	CL:0000129	microglial cell				
-a1324e8225	OPC	OPC			CrossArea_subclass	CL:0002453	oligodendrocyte precursor cell				
+CrossArea_cluster:5b3c85bd88	VLMC_1	VLMC_1	CrossArea_subclass:add985a2fc	VLMC	CrossArea_cluster						
+CrossArea_cluster:88b46d3e96	Oligo_4	Oligo_4	CrossArea_subclass:fc8bf1d738	Oligo	CrossArea_cluster						
+CrossArea_cluster:2aa6a5aa14	VLMC_2	VLMC_2	CrossArea_subclass:add985a2fc	VLMC	CrossArea_cluster						
+CrossArea_cluster:1eadf441a5	Oligo_1	Oligo_1	CrossArea_subclass:fc8bf1d738	Oligo	CrossArea_cluster						
+CrossArea_cluster:f57fd80b63	Oligo_3	Oligo_3	CrossArea_subclass:fc8bf1d738	Oligo	CrossArea_cluster						
+CrossArea_cluster:a1324e8225	OPC_1	OPC_1	CrossArea_subclass:a1324e8225	OPC	CrossArea_cluster						
+CrossArea_cluster:b97adf0f86	Endo_1	Endo_1	CrossArea_subclass:6318702a57	Endo	CrossArea_cluster						
+CrossArea_cluster:38e7a43d20	Oligo_2	Oligo_2	CrossArea_subclass:fc8bf1d738	Oligo	CrossArea_cluster						
+CrossArea_cluster:9c5debf6f9	Astro_5	Astro_5	CrossArea_subclass:4c03d6f530	Astro	CrossArea_cluster						
+CrossArea_cluster:0d8241831b	Endo_2	Endo_2	CrossArea_subclass:6318702a57	Endo	CrossArea_cluster						
+CrossArea_cluster:dbeb4bf3ab	Astro_1	Astro_1	CrossArea_subclass:4c03d6f530	Astro	CrossArea_cluster						
+CrossArea_cluster:aab20414c2	Astro_3	Astro_3	CrossArea_subclass:4c03d6f530	Astro	CrossArea_cluster						
+CrossArea_cluster:e15841c136	Astro_4	Astro_4	CrossArea_subclass:4c03d6f530	Astro	CrossArea_cluster						
+CrossArea_cluster:b225fae962	Astro_2	Astro_2	CrossArea_subclass:4c03d6f530	Astro	CrossArea_cluster						
+CrossArea_cluster:ad92f8a874	Micro/PVM_1	Micro/PVM_1	CrossArea_subclass:ad92f8a874	Micro/PVM	CrossArea_cluster						
+CrossArea_subclass:ad92f8a874	Micro/PVM	Micro/PVM			CrossArea_subclass	CL:0000129	microglial cell				
+CrossArea_subclass:6318702a57	Endo	Endo			CrossArea_subclass	CL:1001602	cerebral cortex endothelial cell				
+CrossArea_subclass:fc8bf1d738	Oligo	Oligo			CrossArea_subclass	CL:0000128	oligodendrocyte				
+CrossArea_subclass:add985a2fc	VLMC	VLMC			CrossArea_subclass	CL:4023051	vascular leptomeningeal cell				
+CrossArea_subclass:4c03d6f530	Astro	Astro			CrossArea_subclass	CL:0002605	astrocyte of the cerebral cortex				
+CrossArea_subclass:a1324e8225	OPC	OPC			CrossArea_subclass	CL:0002453	oligodendrocyte precursor cell				
