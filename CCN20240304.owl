@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xml:base="https://purl.brain-bican.org/ontology/AIT_CCN20240304/"
+   xmlns:CAS="https://cellular-semantics.sanger.ac.uk/ontology/CAS/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="CrossArea_cluster#38e7a43d20">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Oligo_2</rdfs:label>
+    <skos:preflabel>Oligo_2</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#fc8bf1d738"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass">
+    <rdfs:label>CrossArea_subclass</rdfs:label>
+    <CAS:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CAS:rank>
+    <rdf:type rdf:resource="https://cellular-semantics.sanger.ac.uk/ontology/CAS/Labelset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#9c5debf6f9">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Astro_5</rdfs:label>
+    <skos:preflabel>Astro_5</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#4c03d6f530"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass#ad92f8a874">
+    <CAS:has_labelset rdf:resource="CrossArea_subclass"/>
+    <rdfs:label>Micro/PVM</rdfs:label>
+    <skos:preflabel>Micro/PVM</skos:preflabel>
+    <CAS:cell_ontology_term>microglial cell</CAS:cell_ontology_term>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N6b5e763bf7f8425bae57ff9614c08fae"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne44d0a4be7964e67a2d7972c2e2a68a8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002605"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass#fc8bf1d738">
+    <CAS:has_labelset rdf:resource="CrossArea_subclass"/>
+    <rdfs:label>Oligo</rdfs:label>
+    <skos:preflabel>Oligo</skos:preflabel>
+    <CAS:cell_ontology_term>oligodendrocyte</CAS:cell_ontology_term>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nfb2baf6caf7d4d9289f7264772363337"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cellular-semantics.sanger.ac.uk/ontology/CAS/HNEO">
+    <CAS:author_name>Trygve E Bakken</CAS:author_name>
+    <CAS:labelsets rdf:resource="CrossArea_cluster"/>
+    <CAS:labelsets rdf:resource="CrossArea_subclass"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#5b3c85bd88"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#88b46d3e96"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#2aa6a5aa14"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#1eadf441a5"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#f57fd80b63"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#a1324e8225"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#b97adf0f86"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#38e7a43d20"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#9c5debf6f9"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#0d8241831b"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#dbeb4bf3ab"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#aab20414c2"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#e15841c136"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#b225fae962"/>
+    <CAS:annotations rdf:resource="CrossArea_cluster#ad92f8a874"/>
+    <CAS:annotations rdf:resource="CrossArea_subclass#ad92f8a874"/>
+    <CAS:annotations rdf:resource="CrossArea_subclass#6318702a57"/>
+    <CAS:annotations rdf:resource="CrossArea_subclass#fc8bf1d738"/>
+    <CAS:annotations rdf:resource="CrossArea_subclass#add985a2fc"/>
+    <CAS:annotations rdf:resource="CrossArea_subclass#4c03d6f530"/>
+    <CAS:annotations rdf:resource="CrossArea_subclass#a1324e8225"/>
+    <CAS:matrix_file_id>CellXGene_dataset:5346f9c6-755e-4336-94cc-38706ec00c2f</CAS:matrix_file_id>
+    <CAS:cellannotation_schema_version>4.0.0</CAS:cellannotation_schema_version>
+    <CAS:orcid>https://orcid.org/0000-0003-3373-7386</CAS:orcid>
+    <rdf:type rdf:resource="https://cellular-semantics.sanger.ac.uk/ontology/CAS/GeneralCellAnnotationOpenStandard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass#6318702a57">
+    <CAS:has_labelset rdf:resource="CrossArea_subclass"/>
+    <rdfs:label>Endo</rdfs:label>
+    <skos:preflabel>Endo</skos:preflabel>
+    <CAS:cell_ontology_term>cerebral cortex endothelial cell</CAS:cell_ontology_term>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N1420f1e0fe4b42c98932728d2d508cec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#e15841c136">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Astro_4</rdfs:label>
+    <skos:preflabel>Astro_4</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#4c03d6f530"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1420f1e0fe4b42c98932728d2d508cec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_1001602"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5d31c4a854d44515b65dc0faf72c6f8f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#f57fd80b63">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Oligo_3</rdfs:label>
+    <skos:preflabel>Oligo_3</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#fc8bf1d738"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#a1324e8225">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>OPC_1</rdfs:label>
+    <skos:preflabel>OPC_1</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#a1324e8225"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#b97adf0f86">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Endo_1</rdfs:label>
+    <skos:preflabel>Endo_1</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#6318702a57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass#a1324e8225">
+    <CAS:has_labelset rdf:resource="CrossArea_subclass"/>
+    <rdfs:label>OPC</rdfs:label>
+    <skos:preflabel>OPC</skos:preflabel>
+    <CAS:cell_ontology_term>oligodendrocyte precursor cell</CAS:cell_ontology_term>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N5d31c4a854d44515b65dc0faf72c6f8f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#1eadf441a5">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Oligo_1</rdfs:label>
+    <skos:preflabel>Oligo_1</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#fc8bf1d738"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#2aa6a5aa14">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>VLMC_2</rdfs:label>
+    <skos:preflabel>VLMC_2</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#add985a2fc"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass#4c03d6f530">
+    <CAS:has_labelset rdf:resource="CrossArea_subclass"/>
+    <rdfs:label>Astro</rdfs:label>
+    <skos:preflabel>Astro</skos:preflabel>
+    <CAS:cell_ontology_term>astrocyte of the cerebral cortex</CAS:cell_ontology_term>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Ne44d0a4be7964e67a2d7972c2e2a68a8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#dbeb4bf3ab">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Astro_1</rdfs:label>
+    <skos:preflabel>Astro_1</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#4c03d6f530"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#b225fae962">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Astro_2</rdfs:label>
+    <skos:preflabel>Astro_2</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#4c03d6f530"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6b5e763bf7f8425bae57ff9614c08fae">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#aab20414c2">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Astro_3</rdfs:label>
+    <skos:preflabel>Astro_3</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#4c03d6f530"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb2baf6caf7d4d9289f7264772363337">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne953cfab1d094e15890a35ea942c4ea5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4023051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#ad92f8a874">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Micro/PVM_1</rdfs:label>
+    <skos:preflabel>Micro/PVM_1</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#ad92f8a874"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#5b3c85bd88">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>VLMC_1</rdfs:label>
+    <skos:preflabel>VLMC_1</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#add985a2fc"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_subclass#add985a2fc">
+    <CAS:has_labelset rdf:resource="CrossArea_subclass"/>
+    <rdfs:label>VLMC</rdfs:label>
+    <skos:preflabel>VLMC</skos:preflabel>
+    <CAS:cell_ontology_term>vascular leptomeningeal cell</CAS:cell_ontology_term>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Ne953cfab1d094e15890a35ea942c4ea5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#88b46d3e96">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Oligo_4</rdfs:label>
+    <skos:preflabel>Oligo_4</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#fc8bf1d738"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster">
+    <rdfs:label>CrossArea_cluster</rdfs:label>
+    <CAS:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CAS:rank>
+    <rdf:type rdf:resource="https://cellular-semantics.sanger.ac.uk/ontology/CAS/Labelset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CrossArea_cluster#0d8241831b">
+    <CAS:has_labelset rdf:resource="CrossArea_cluster"/>
+    <rdfs:label>Endo_2</rdfs:label>
+    <skos:preflabel>Endo_2</skos:preflabel>
+    <obo:RO_0015003 rdf:resource="CrossArea_subclass#6318702a57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+</rdf:RDF>
