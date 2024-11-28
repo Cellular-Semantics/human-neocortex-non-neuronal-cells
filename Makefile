@@ -28,6 +28,10 @@ load_data:
 runR:
 	Rscript dendR/nomenclature_builder.R
 
+
+init: build/nanobot
+	$(NANOBOT) init
+
 $(NANOBOTDB): | $(NANOBOT)
 	$(NANOBOT) init
 
