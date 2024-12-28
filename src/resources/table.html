@@ -2,7 +2,7 @@
 ## This template is derived from https://github.com/ontodev/nanobot.rs/blob/main/src/resources/table.html
 ## check the 'extend-start' 'extend-end' comment lines
 #}
-
+  
 {% extends "page.html" %}
 {% block content %}
 <h2>{{ table.table }}</h2>
@@ -279,7 +279,9 @@
 <table class="table table-sm">
   <thead>
     <tr>
+      {% if "row_number" in row[0] %}
       <th />
+      {% endif %}
       <!-- extend-start -->
       {% if table.table == "annotation" %}
       <!-- review icon column -->
@@ -287,26 +289,26 @@
       {% endif %}
       <!-- extend-end -->
       {% for name, value in column|items -%}
-        <th>
-          <a class="" data-bs-toggle="modal" href="#{{ name|id }}Modal" role="button">
-            {{ value.label or name }}
-          </a>
-          {% if value.filtered_operator %}
-          <i class="bi bi-filter-circle-fill"></i>
-          {% elif value.sorted == "asc" %}
-          <i class="bi bi-sort-up"></i>
-          {% elif value.sorted == "desc" %}
-          <i class="bi bi-sort-down"></i>
-          {% endif %}
-        </th>
-      {% endfor %}
-        <!-- extend-start -->
-        {% if table.table == "annotation" %}
-        <th>
-          <a class="" role="button" style="text-decoration:none">Transferred Annotations</a>
-        </th>
+      <th>
+        <a class="" data-bs-toggle="modal" href="#{{ name|id }}Modal" role="button">
+          {{ value.label or name }}
+        </a>
+        {% if value.filtered_operator %}
+        <i class="bi bi-filter-circle-fill"></i>
+        {% elif value.sorted == "asc" %}
+        <i class="bi bi-sort-up"></i>
+        {% elif value.sorted == "desc" %}
+        <i class="bi bi-sort-down"></i>
         {% endif %}
-        <!-- extend-end -->
+      </th>
+      {% endfor %}
+      <!-- extend-start -->
+      {% if table.table == "annotation" %}
+      <th>
+        <a class="" role="button" style="text-decoration:none">Transferred Annotations</a>
+      </th>
+      {% endif %}
+      <!-- extend-end -->
     </tr>
   </thead>
   <tbody>
@@ -452,9 +454,7 @@
           {% endif %}
         </ul>
       </td>
-      {# extend-start #}
       {% endif %}
-      {# extend-end #}
       {% endfor %}
       <!-- extend-start -->
       {% if table.table == "annotation" %}
