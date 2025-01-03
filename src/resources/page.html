@@ -139,7 +139,7 @@
     <div class="container-fluid">
       <!--   extend-start   -->
       <a class="navbar-brand" href="/">Taxonomy Development Tools</a>
-      {% with tdt_version="1.0.8" %}
+      {% with tdt_version="2.0.0" %}
       {% if tdt_version %}<div style="font-size:10px;color:#0000008C;margin-left:-8px;">v{{ tdt_version }}</div>{% endif %}
       {% endwith %}
       <!--   extend-end   -->
@@ -155,15 +155,17 @@
             </a>
             <ul class="dropdown-menu">
               {% for table, href in page.tables|items %}
-              {% if table not in ["review", "message", "flags"] %}
-              <li><a class="dropdown-item" href="{{ page.root }}{{ href }}">{{ table }}</a></li>
-              {% endif %}
+                {% if table not in ["review", "message", "flags"] %}
+                  <li><a class="dropdown-item" href="{{ page.root }}{{ href }}">{{ table }}</a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </li>
         </ul>
-        {% if page.editable %}
+        <!-- temp workaround for missing page.editable value -->
+        {% if page.editable or true %}
         <ul class="navbar-nav">
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
               Actions
